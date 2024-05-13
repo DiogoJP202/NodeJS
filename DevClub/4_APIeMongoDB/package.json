@@ -1,0 +1,20 @@
+{
+  "name": "apiemongodb",
+  "version": "1.0.0",
+  "description": "Criando uma API com NodeJS e MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Diogo Antonny Santos Soares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "fronteback",
+  "version": "1.0.0",
+  "description": "Conectando o BackEnd com o FrontEnd.",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend.js"
+  },
+  "author": "Diogo Antonny Santos Soares",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
